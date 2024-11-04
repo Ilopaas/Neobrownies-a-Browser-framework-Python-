@@ -1,0 +1,26 @@
+/* styles.qss */
+QMainWindow {
+    background-color: #f0f0f0;
+}
+
+QToolBar {
+    background-color: #3c3c3c;
+    color: white;
+}
+
+QLineEdit {
+    padding: 5px;
+    border: 1px solid #3c3c3c;
+    border-radius: 5px;
+}
+
+QTabBar::tab {
+    background: #c1c1c1;
+    border: 1px solid #3c3c3c;
+    padding: 10px;
+}
+
+QTabBar::tab:selected {
+    background: #ffffff;
+    color: #000000;
+}
